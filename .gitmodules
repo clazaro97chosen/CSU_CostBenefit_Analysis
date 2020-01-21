@@ -1,0 +1,3 @@
+[submodule "Business-Churn-Project"]
+	path = Business-Churn-Project
+	url = git@github.com:clazaro97chosen/Business-Churn-Project.git

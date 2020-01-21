@@ -1,0 +1,24 @@
+### Data Dictionary(other than those which are self-explanatory):
+
+1. UNIQUE_ID: randomly-generated identifier variable
+2. COHORT: term of admission; e.g., 2010 = Fall 2010, 2011 = Fall 2011..
+3. NATIVE_COLLEGE: college student was admitted to e.g ( BUS = BUSINESS, SM = SCIENCE&MATH, DES =DESIGN, AGR = AGRICULTURE, ENG= ENGINEERING, LA= LIBERAL ARTS
+4. RESIDENCY: Resident = in-state student, Non Res = out-of-state student, Foreign Co = international student
+5. AOA_RSNCODE: Avenue of admission:
+    * Early = Early admission
+    * Acad MCA = Academic 
+    * Mand MCA = Mandated 
+    * Adm Prerog = Administrative **
+    * Other = Other avenue of admission
+6. MothersEd & FathersEd: parents’ education levels
+    * 1 = No high school
+    * 2 = Some high school
+    * 3 = High school graduate
+    * 4 = Some college
+    * 5 = 2-year college graduate
+    * 6 = 4-year college graduate
+    * 7 = Postgraduate
+7. PARTNER_SCHOOL: Was the student’s high school part of the Partner Program? (Y/N)
+8. Churn: Did the freshman student churn 
+    * 1 = Yes
+    * 0 = No

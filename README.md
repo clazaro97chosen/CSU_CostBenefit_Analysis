@@ -1,6 +1,6 @@
 ## CSU Cost Benefit Analysis Project
 [Abstract](#Welcome)<br>
-[An example of another applicable result](#Example of another applicable results from the project)<br>
+[An example of another applicable result](#Example-of-another-applicable-result-from-the-project)<br>
 [Repository Organization](#Repository-Organization)
 
 ## Welcome! 
@@ -13,7 +13,7 @@ Abstract: "Student recruitment efforts require substantial institutional expendi
 California Public Universities, Freshman Retention, Classification, Cost–benefit analysis (CBA), machine learning
 
 
-## Example of another applicable results from the project
+## Example of another applicable result from the project
 The university wanted to see what it would take to increase their 94% freshman retention rate to match or beath UCLA which has the best retention rate in california with 97% how much would the university have to endure per student to reach that goal. In our preparred training data used in this project 960 out 16816 students churned. Our machine learning classifier predicted 111 out of the 960 with a threshold of .2 and a cost per student of 3065. In order to reach a 97% retention rate our machine learning classifier would have to predict 504 out of the 960 students who churn. We investigate what threshold is necessary for this to happen and what our cost per student would come out to be. We find that a threshold of .06 i.e. if a student has a greater than 6.9 % probability of churning we are going to predict that the student will churn and offer the retention program initiative which has an administrative cost of 3,400 dollars. This would theoretically result in a 97% freshman retention rate but at the cost of $\\3402.10 per student.
 
 
